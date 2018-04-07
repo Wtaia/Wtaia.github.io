@@ -1,1 +1,179 @@
-theme: jekyll-theme-minimal
+# layout -- 布局相关
+# language: zh-CN
+
+## menu 导航菜单显示
+menu:
+- page: Spring Cloud|周立
+  url: /
+  icon: fa-home
+- page: 分类
+  url: /categories
+  icon: fa-list
+- page: 关于
+  url: /about
+  icon: fa-user
+- page: 归档
+  url: /archives
+  icon: fa-archive
+- page: 标签
+  url: /tags
+  icon: fa-tag
+
+
+
+## favicon 
+favicon: /favicon.ico
+
+## Feed 
+rss: /atom.xml
+
+
+# 各个小工具的设置
+
+## widgets
+widgets:
+- notification
+- aboutme
+- social
+- category
+- archive
+- tagcloud
+- friends
+
+## 首页关于我设置
+aboutme:
+  image: /icons/wx.jpg
+  author: 周立
+  words: 《Spring Cloud与Docker微服务架构实战》作者<br/>Spring4All社区发起人之一
+
+## 网站公告设置
+notification: |-
+            <p>
+              <b>笔者微信</b>：jumping_me，欢迎加我<br/>
+              <b>公众号</b>：请扫描我的头像<br/>
+              <b>本站主题</b>：<a href="http://github.com/itmuch/hexo-theme-itmuch">下载</a>
+            </p>
+
+## 社交设置
+social:
+ - name: GitHub
+   icon: github
+   href: //github.com/eacdy
+ - name: Git@OSC
+   icon: git
+   href: //gitee.com/itmuch
+ - name: 邮箱
+   icon: envelope-o
+   href: mailto:eacdy0000@126.com
+ - name: RSS
+   icon: feed
+   href: /atom.xml
+
+## 文章分类设置
+cate_config:
+   show_count: true
+   show_current: true
+
+## 文章归档设置
+arch_config:
+   type: 'monthly'
+   show_count: true
+   order: -1
+
+## 友链设置
+links:
+  - 大数据: https://www.feel88.cn/
+  - 程序猿DD|翟永超: http://blog.didispace.com/
+  - 泥瓦匠的博客: http://www.bysocket.com/
+  - EdisonXu's Blog: http://edisonxu.org/
+  - 沧海云视频: http://www.ictgu.cn
+  - 梁桂钊的博客: http://blog.720ui.com/
+
+
+
+# 主题自定义个性化配置
+
+## 网站宣传语
+branding: 
+
+## 懒加载图片占位符
+placeholder: ./img/loading.gif
+
+## 缩略图自定义随机图片
+defaultImgs:
+  - 
+
+## 截取文章首页描述字数
+excerptLength: 240
+
+## 当无分类时显示文字，默认为'无'
+noCategoryText: '无'
+
+## 代码高亮配置
+highlightTheme: railscasts
+
+## ICON配置
+fontAwesome: //cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
+
+## 文章过期提醒功能
+warning:
+  days: 30000
+  text: '本文于%d天之前发表，文中内容可能已经过时。'
+
+## 添加版权保护 
+archiveCopyright:
+  enable: true
+  tip: '本博客由周立创作，采用
+    <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank">
+    CC BY 3.0 CN
+    </a>
+    许可协议。可自由转载、引用，但需署名作者且注明文章出处。如转载至微信公众号，请在文末添加作者公众号二维码。'
+
+## 过低版本的浏览器提醒文字
+outdated_browser_text: '你使用的浏览器版本过低，为了你更好的阅读体验，请更新浏览器的版本或者使用其他现代浏览器，比如Chrome、Firefox、Safari等。'
+
+
+## 主题评论
+### gitment
+gitment:
+  enable: false
+  owner: 
+  repo: 
+  client_id: 
+  client_secret: 
+  perPage: 10
+
+
+### 友言评论
+uyan:
+  enable: true
+  uyan_id: 905617
+
+
+## 网站访问统计
+
+### 网盟CNZZ统计
+# cnzz_anaylytics: 1263868967
+
+### 百度统计
+baidu_anaylytics: 13766878cde148282622871dd245a973
+
+### 谷歌统计
+google_anaylytics: 
+
+### 百度文章推送
+baidu_push:
+
+#网站主题配置
+since: 2016
+robot: 'all' ### 控制搜索引擎的抓取和索引编制行为，默认为all
+version: 1.1.0
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+# 是否开启fork me on github
+fork_me_on_github:
+  enabled: true
+  url: http://github.com/eacdy
